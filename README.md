@@ -1,15 +1,19 @@
 # BioRec-One
 
-> 🚧 文档施工中...
+<p align="center">
+<img src="https://github.com/chirpyjay/BioRec-One/wiki/6.jpg"  width="600" />
+</p>
 
-单通道电生理记录仪，面向教学演示和科研场景的生物电信号采集。数据可导出为 CSV 和 BDF 格式。
+单通道电生理记录仪，面向教学演示和科研场景的生物电信号采集。数据可导出为CSV和BDF格式。
 
 ## 硬件特性
 
-- 离散元件搭建模拟前端，不使用单片 ASIC，适合教学演示
-- 带宽 0.05–200Hz，支持多档数字滤波
+- 离散元件搭建模拟前端，不使用单片ASIC，适合教学演示
+- 带宽0.05–200Hz，支持多档数字滤波
 - 隔离供电，抑制共模干扰
-- FPGA 实现 FIR/IIR 滤波与 Pan-Tompkins 心率检测
+- FPGA实现FIR/IIR滤波与Pan-Tompkins心率检测
+
+
 
 ## 目录结构
 ```
