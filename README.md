@@ -4,7 +4,7 @@
 <img src="https://github.com/chirpyjay/BioRec-One/wiki/6.jpg"  width="600" />
 </p>
 
-单通道电生理记录仪，面向教学演示和科研场景。离散元件搭建模拟前端，等效输入噪声约266nV，数据可导出为CSV和BDF格式。
+单通道电生理记录仪，面向教学演示场景。离散元件搭建模拟前端，数据可导出为CSV和BDF格式。
 
 ## 硬件特性
 
@@ -14,7 +14,7 @@
 
 - 离散元件搭建模拟前端，不使用单片ASIC，适合教学演示
 - 等效输入噪声密度18.8nV/√Hz，200Hz带宽下有效值266nV
-- 带宽0.05–200Hz，高通截止频率可在0.05Hz / 1.5Hz间切换，支持多档数字滤波
+- 带宽0.05–200Hz，高通截止频率可在0.05Hz/1.5Hz间切换，支持多档数字滤波
 - 隔离供电，抑制共模干扰
 - FPGA实现FIR/IIR滤波与Pan-Tompkins心率检测
 
@@ -30,6 +30,15 @@
 
 <p align="center">
 <img src="https://github.com/chirpyjay/BioRec-One/wiki/83.jpg"  width="500" />
+</p>
+
+<p align="center">
+<img src="https://github.com/chirpyjay/BioRec-One/wiki/86.gif"  width="500" />
+</p>
+
+<p align="center">
+<img src="https://github.com/chirpyjay/BioRec-One/wiki/79.png"  width="500" />
+<img src="https://github.com/chirpyjay/BioRec-One/wiki/79_1.png"  width="500" />
 </p>
 
 ## 目录结构
@@ -51,7 +60,7 @@
 
 2. 在 `firmware/` 目录按烧录指南分别烧录FPGA和MCU固件。
 
-3. 制作电极，推荐湿电极以获得更好的接触阻抗。可参考 [3.3.3 实际电极](https://github.com/chirpyjay/BioRec-One/wiki/03-%E5%BF%83%E7%94%B5%E6%B5%8B%E9%87%8F%E5%8E%9F%E7%90%86#333%E5%AE%9E%E9%99%85%E7%94%B5%E6%9E%81%E5%8F%8A%E7%AD%89%E6%95%88%E6%A8%A1%E5%9E%8B) 中的介绍。
+3. 制作电极：推荐湿电极以获得更好的接触阻抗。可参考 [3.3.3 实际电极](https://github.com/chirpyjay/BioRec-One/wiki/03-%E5%BF%83%E7%94%B5%E6%B5%8B%E9%87%8F%E5%8E%9F%E7%90%86#333%E5%AE%9E%E9%99%85%E7%94%B5%E6%9E%81%E5%8F%8A%E7%AD%89%E6%95%88%E6%A8%A1%E5%9E%8B) 中的介绍。
 
    <p align="center">
    <img src="https://github.com/chirpyjay/BioRec-One/wiki/85.jpg"  width="300" />
