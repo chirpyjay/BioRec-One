@@ -110,8 +110,6 @@ Copyright (c) 2026 Zihang Shi (ChirpyJay)
 本项目描述的是开源硬件，并依据 CERN-OHL-P v2 许可证发布。  
 您可以根据 CERN-OHL-P v2（https://cern.ch/cern-ohl）的条款，自由再分发和修改这些设计文档，并基于其制造产品。
 
----
-
 ### 软件与固件
 **所有软件与固件代码均基于 [MIT License](http://opensource.org/licenses/MIT) 发布。**
 
@@ -120,8 +118,6 @@ Copyright (c) 2026 Zihang Shi (ChirpyJay)
 特此免费授予任何获得本软件及相关文档副本的个人不限权利地使用本软件的权限，包括但不限于使用、复制、修改、合并、发布、分发、再许可及/或销售软件副本，并允许向其提供软件的对象从事上述行为，但须满足以下条件：
 
 上述版权声明和本许可声明应包含在软件的所有副本或重要部分中。
-
----
 
 ### 文档
 **所有文档及 Wiki 内容均基于 [Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/) 发布。**
