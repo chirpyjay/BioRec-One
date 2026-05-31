@@ -15,7 +15,7 @@
 
 2. 在启动界面中选择以下配置，然后点击 `OK`：
    - `chipType` → `ESP32S3`
-   - `workMode` → `develop`
+   - `workMode` → `Develop`
    - `loadMode` → `UART`
 
    <div align="center">
